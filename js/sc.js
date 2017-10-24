@@ -30,11 +30,11 @@ $("#submit").click(function(){
        SC.stream("/tracks/"+tracks[0].id).then(function(player){
          player.play();
 //stop button functionality
-
-
        $("#stop").click(function(){
          player.pause();
        });
+
+
           });
 
 

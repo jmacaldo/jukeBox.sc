@@ -1,10 +1,8 @@
-body {
-  background-color: #808080;
-}
+
 
 .container-fluid {
   background-color: #fff;
-  margin-top: 8em;
+  margin-top: 1em;
 }
 
 #sc {
@@ -14,6 +12,10 @@ body {
   border-style: dashed;
   border-width: 2px;
   border-color: #808080;
+}
+
+.glyphicon {
+  font-size: 40px;
 }
 .well {
   border-width: 1px;
@@ -67,6 +69,9 @@ body {
 
 #art {
   display: inline-block;
+  position: absolute;
+  top: 10px;
+  margin-bottom: 10px;
   width: 100px;
 
 }
@@ -78,43 +83,29 @@ body {
   top: 10px;
 }
 
-#stop {
-  width: 100px;
-  font-size: 10px;
-  border-radius: 0px;
-  display: none;
-}
-
 .info {
   display: inline-block;
   line-height: 2.5px;
   position: relative;
-  top: 10px;
-  margin-left: 10px;
+  margin-left: 110px;
 }
 
-#overlay {
-  position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 100%;
-   width: 100%;
-   opacity: 0;
-   transition: .5s ease;
-   z-index: 1;
-}
-
-#art:hover #overlay{
-  opacity: 1;
-  z-index: 1;
-}
-
-#playBtn {
+#stop, #play {
+  margin-top: 10px;
   width: 100px;
-  z-index: 1;
+  font-size: 20px;
+  border-radius: 2px;
+  display: none;
 }
+
+#stop {
+  position: absolute;
+  left: 30px;
+  top: 52px;
+  /* margin-left: 5px; */
+}
+
+
 
 #searchInst {
   font-style: italic;

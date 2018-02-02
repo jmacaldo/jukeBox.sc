@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 SC.initialize({
- client_id: 'fd4e76fc67798bfa742089ed619084a6'
+ client_id: 'ebe2d1362a92fc057ac484fcfb265049'
 });
 // ALL CODE GOES BELOW THIS LINE
 $("#submit").click(function(){

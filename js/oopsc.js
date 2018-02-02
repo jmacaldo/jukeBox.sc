@@ -3,7 +3,7 @@ $( document ).ready(function() {
 var track =[]
 class Jukebox {
   constructor(){
-    SC.initialize({client_id: 'ebe2d1362a92fc057ac484fcfb265049'});
+    SC.initialize({client_id: 'SUPPLY SC API KEY HERE'});
     console.log('init fired!');
   }
 
